@@ -11,6 +11,11 @@
 		071FCC2D2983B15600598B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FCC2C2983B15600598B70 /* ContentView.swift */; };
 		071FCC2F2983B15800598B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071FCC2E2983B15800598B70 /* Assets.xcassets */; };
 		071FCC322983B15800598B70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071FCC312983B15800598B70 /* Preview Assets.xcassets */; };
+		071FCC392983B1BE00598B70 /* HeartbeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FCC382983B1BE00598B70 /* HeartbeatView.swift */; };
+		071FCC3B2983B20100598B70 /* PlanesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FCC3A2983B20100598B70 /* PlanesView.swift */; };
+		071FCC3D2983BF2B00598B70 /* HeartShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FCC3C2983BF2B00598B70 /* HeartShapeView.swift */; };
+		071FCC3F2983D52000598B70 /* CirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FCC3E2983D52000598B70 /* CirclesView.swift */; };
+		071FCC41298405F200598B70 /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FCC40298405F200598B70 /* PulseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		071FCC2C2983B15600598B70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		071FCC2E2983B15800598B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		071FCC312983B15800598B70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		071FCC382983B1BE00598B70 /* HeartbeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatView.swift; sourceTree = "<group>"; };
+		071FCC3A2983B20100598B70 /* PlanesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanesView.swift; sourceTree = "<group>"; };
+		071FCC3C2983BF2B00598B70 /* HeartShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShapeView.swift; sourceTree = "<group>"; };
+		071FCC3E2983D52000598B70 /* CirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesView.swift; sourceTree = "<group>"; };
+		071FCC40298405F200598B70 /* PulseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				071FCC2A2983B15600598B70 /* ShapesAndAnimationsApp.swift */,
 				071FCC2C2983B15600598B70 /* ContentView.swift */,
+				071FCC382983B1BE00598B70 /* HeartbeatView.swift */,
+				071FCC3C2983BF2B00598B70 /* HeartShapeView.swift */,
+				071FCC3A2983B20100598B70 /* PlanesView.swift */,
+				071FCC40298405F200598B70 /* PulseView.swift */,
+				071FCC3E2983D52000598B70 /* CirclesView.swift */,
 				071FCC2E2983B15800598B70 /* Assets.xcassets */,
 				071FCC302983B15800598B70 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071FCC41298405F200598B70 /* PulseView.swift in Sources */,
 				071FCC2D2983B15600598B70 /* ContentView.swift in Sources */,
+				071FCC3B2983B20100598B70 /* PlanesView.swift in Sources */,
+				071FCC3F2983D52000598B70 /* CirclesView.swift in Sources */,
 				071FCC2B2983B15600598B70 /* ShapesAndAnimationsApp.swift in Sources */,
+				071FCC392983B1BE00598B70 /* HeartbeatView.swift in Sources */,
+				071FCC3D2983BF2B00598B70 /* HeartShapeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
